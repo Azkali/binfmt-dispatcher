@@ -31,11 +31,6 @@ required_paths = ["/usr/share/fex-emu/RootFS/default.erofs"]
 # interpreter inside muvm if the page-size is different than 4k
 use_muvm = true
 
-# A minimal interpreter configuration block, which specified just the path.
-# The name is assumed identical to the id, and muvm is disabled.
-[interpreters.box64]
-path = "/usr/bin/box64"
-
 # The binaries section is to customize which interpreter to run for a given
 # binary application.
 
